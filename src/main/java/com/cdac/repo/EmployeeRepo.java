@@ -1,8 +1,8 @@
-package net.javaguides.repository;
+package com.cdac.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import net.javaguides.model.Employee;
+import com.cdac.model.Employee;
 
 public interface EmployeeRepo extends JpaRepository<Employee, Long> {
 

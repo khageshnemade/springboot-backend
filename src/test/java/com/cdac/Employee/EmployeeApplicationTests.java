@@ -1,10 +1,10 @@
-package net.javaguides.springbootbackend;
+package com.cdac.Employee;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootBackendApplicationTests {
+class EmployeeApplicationTests {
 
 	@Test
 	void contextLoads() {
