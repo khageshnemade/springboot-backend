@@ -12,4 +12,8 @@ public class FreeController {
         return "From Add COmponent of the COntroller";
     }
     
+    @GetMapping("/sub")
+    public String sub(){
+        return "From Add COmponent of the COntroller";
+    }
 }
