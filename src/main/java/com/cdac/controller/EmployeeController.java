@@ -30,7 +30,7 @@ public class EmployeeController {
 		
 		return erepo.findAll();
 	}
-	@GetMapping
+	@GetMapping("hello")
 	public String hello(){
 		
 		return "Hello Fom Employee";
