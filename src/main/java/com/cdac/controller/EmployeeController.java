@@ -30,6 +30,11 @@ public class EmployeeController {
 		
 		return erepo.findAll();
 	}
+	@GetMapping
+	public String hello(){
+		
+		return "Hello Fom Employee";
+	}
 	
 	@PostMapping
 	public Employee createEmployee(@RequestBody Employee emp) {
