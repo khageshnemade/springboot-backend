@@ -21,7 +21,7 @@ import com.cdac.repo.EmployeeRepo;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/e")
+@RequestMapping("/emp")
 public class EmployeeController {
 	@Autowired private EmployeeRepo erepo;
 
