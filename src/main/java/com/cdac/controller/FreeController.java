@@ -7,18 +7,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class FreeController {
-@GetMapping
-    public String add(){
+        @GetMapping("/add")
+        public String add(){
         return "From Add COmponent of the COntroller";
-    }
-    
-    @GetMapping("/sub")
-    public String sub(){
-        return "From SUB COmponent of the COntroller";
-    }
+        }
 
-      @GetMapping("/mul")
-    public String mul(){
+        @GetMapping("/sub")
+        public String sub(){
+        return "From SUB COmponent of the COntroller";
+        }
+
+        @GetMapping("/mul")
+        public String mul(){
         return "From MUL COmponent of the COntroller";
-    }
+        }
 }
